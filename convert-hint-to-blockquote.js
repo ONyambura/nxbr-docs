@@ -24,6 +24,17 @@ function processFile(filePath) {
         }
     );
 
+    content = content.replace(
+        /{%\s*stepper.*?%}([\s\S]*?){%\s*endstepper\s*%}/gi,
+        (match, p1) => {
+          return p1
+            .split("\n")
+            .filter(line => line.trim())
+            .map((line, i) => `${i + 1}. ${line.trim()}`)
+            .join("\n");
+        }
+      );
+
     fs.writeFileSync(filePath, content, "utf-8");
     console.log(`Processed: ${filePath}`);
 }

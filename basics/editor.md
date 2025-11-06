@@ -16,23 +16,16 @@ Either start typing below, or press `/` to see a list of the blocks you can inse
 
 ### Add a new block
 
-{% stepper %}
-{% step %}
-### Open the insert block menu
-
-Press `/` on your keyboard to open the insert block menu.
-{% endstep %}
-
-{% step %}
-### Search for the block you need&#x20;
-
-Try searching for “Stepper”, for exampe, to insert the stepper block.
-{% endstep %}
-
-{% step %}
-### Insert and edit your block
-
-Click or press Enter to insert your block. From here, you’ll be able to edit it as needed.
-{% endstep %}
-{% endstepper %}
+1. {% step %}
+2. ### Open the insert block menu
+3. Press `/` on your keyboard to open the insert block menu.
+4. {% endstep %}
+5. {% step %}
+6. ### Search for the block you need&#x20;
+7. Try searching for “Stepper”, for exampe, to insert the stepper block.
+8. {% endstep %}
+9. {% step %}
+10. ### Insert and edit your block
+11. Click or press Enter to insert your block. From here, you’ll be able to edit it as needed.
+12. {% endstep %}
 
