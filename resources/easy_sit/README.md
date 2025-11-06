@@ -5,13 +5,13 @@ icon: chair
 
 # Easy Sit - Dynamic Sitting System
 
-{% hint style="warning" %}
-Requirements:
-
-[**ox\_target**](https://github.com/overextended/ox_target)
-
-> _N Developments strongly recommends replacing your current targeting system with `ox_target`. It's faster, more reliable, and fully compatible with popular systems like `qtarget` and `qb-target` — no need to refactor your entire codebase._
-{% endhint %}
+>
+> Requirements:
+>
+> [**ox\_target**](https://github.com/overextended/ox_target)
+>
+> > _N Developments strongly recommends replacing your current targeting system with `ox_target`. It's faster, more reliable, and fully compatible with popular systems like `qtarget` and `qb-target` — no need to refactor your entire codebase._
+>
 
 The **Sit Anywhere System** by **N Developments** allows players and admins to interact with the world like never before. This resource gives you full control over placing **custom sitting spots** on any object — whether it's a chair, rock, dumpster, bench, or something as random as a mailbox.
 
