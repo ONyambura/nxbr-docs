@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>NXBR Docs</title>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    <script>
-      window.$docsify = {
-        name: 'NXBR Docs',
-        repo: 'ONyambura/nxbr-docs'
-      }
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NXBR Docs</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    window.$docsify = {
+      name: 'NXBR Docs',
+      repo: 'ONyambura/nxbr-docs',
+      loadSidebar: true,          // looks for _sidebar.md
+      subMaxLevel: 2,             // optional, shows subheadings
+      homepage: 'README.md',      // Docsify home page
+      loadNavbar: false            // optional, can enable if you have _navbar.md
+    };
+  </script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
 </html>
