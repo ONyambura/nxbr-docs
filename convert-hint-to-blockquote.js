@@ -5,7 +5,7 @@ const ROOT_DIR = path.join(__dirname, "");
 function processFile(filePath) {
     let content = fs.readFileSync(filePath, "utf-8");
 
-    // Convert {% hint %} blocks to Markdown blockquotes
+    // Convert {% hint %} blocks to Markdown blockquotes QQ
     content = content.replace(
         /{%\s*hint.*?%}([\s\S]*?){%\s*endhint\s*%}/gi,
         (match, p1) => {
