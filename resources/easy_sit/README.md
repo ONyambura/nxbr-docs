@@ -29,4 +29,4 @@ All sitting locations are **fully interactable** through `ox_target`, giving a n
 
 #### Preview
 
-{% embed url="https://www.youtube.com/watch?v=gy56mfoeKgk" %}
+[Embedded content](https://www.youtube.com/watch?v=gy56mfoeKgk)

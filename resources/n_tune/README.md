@@ -23,4 +23,4 @@ icon: mobile
 
 ### Preview
 
-{% embed url="https://www.youtube.com/watch?v=2viHIS0Dw3I" %}
+[Embedded content](https://www.youtube.com/watch?v=2viHIS0Dw3I)
